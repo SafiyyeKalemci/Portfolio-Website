@@ -1,0 +1,76 @@
+.certification {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #ffffff;
+}
+
+.certification h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+
+.cert-container {
+  display: grid;
+  gap: 25px;
+}
+
+@media (min-width: 900px) {
+  .cert-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Kart */
+.cert-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.cert-card:hover {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.cert-card h3 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.cert-card p {
+  font-size: 15px;
+  color: #555;
+  margin: 5px;
+  line-height: 1.5;
+}
+
+/* Link */
+.cert-card a {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #6657eb;
+}
+
+/* Animated underline */
+.cert-card a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background: #6657eb;
+  transition: 0.3s ease;
+}
+
+.cert-card a:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,75 @@
+.contact {
+  padding: 60px 10% 5px 10%;
+  background: #ffffff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.contact-text {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  color: #7f5af0;
+  transition: 0.3s ease;
+}
+
+.contact-icon {
+  font-size: 18px;
+}
+
+.email {
+  color: #EA4335;  
+}
+
+.linkedin {
+  color: #0A66C2;   
+}
+
+.github {
+  color: #181717;   
+}
+.contact-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2.5px;
+  left: 0;
+  bottom: -6px;
+  background: #7f5af0;
+  transition: 0.3s ease;
+}
+
+.contact-links a:hover::after {
+  width: 100%;
+}
+
+.copyright {
+  margin-top: 80px;
+  padding-top: 30px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+  opacity: 0.8;
+}

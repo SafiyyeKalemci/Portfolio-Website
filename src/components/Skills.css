@@ -1,0 +1,91 @@
+.skills {
+  padding: 60px 10%;
+  background: #f8f9ff;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 16px;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.skills-card:hover {
+  transform: translateY(-8px);
+}
+
+.skills-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Skill bar */
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.8s ease;
+}
+
+/* Checklist */
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.check {
+  color: #7f5af0;
+  font-weight: bold;
+}
+
+/* Language */
+.language-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.language-badge {
+  background: #e0e7ff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
