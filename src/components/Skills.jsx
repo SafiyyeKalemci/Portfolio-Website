@@ -45,7 +45,7 @@ function Skills() {
       <h2>Skills</h2>
 
       {/* Backend */}
-      <div className="skills-container">
+      <div className="skills-container"  data-aos="fade-up">
         <div className="skills-card backend">
           <h3>⚙️Backend</h3>
           <SkillBar name="Java" level={85} color="#7f5af0" />

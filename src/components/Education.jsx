@@ -5,7 +5,7 @@ function Education() {
   return (
     <section id="education" className="education">
       <h2>Education</h2>
-      <div className="timeline">
+      <div className="timeline"  data-aos="fade-up">
         {/* Dalga SVG */}
         <svg
           className="timeline-wave"

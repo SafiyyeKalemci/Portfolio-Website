@@ -8,12 +8,12 @@ function Contact() {
     <section id="contact" className="contact">
       <h2>Contact</h2>
 
-      <p className="contact-text">
+      <p className="contact-text"  data-aos="fade-up">
         I'm open to internship and collaboration opportunities. Feel free to
         reach out!
       </p>
 
-      <div className="contact-links">
+      <div className="contact-links" >
         <a href="mailto:kalemcisafiyye@gmail.com">
           <MdEmail className="contact-icon email" /> Email
         </a>

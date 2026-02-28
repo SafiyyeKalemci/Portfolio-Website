@@ -8,7 +8,7 @@ function Certifications() {
   return (
     <section className="certification">
       <h2>Certifications & Conferences</h2>
-      <div className="cert-container">
+      <div className="cert-container"  data-aos="fade-up">
         <div className="cert-card">
           <h3>12th International IWW Conference 2025</h3>
           <p>

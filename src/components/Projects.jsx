@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section id="projects" className="projects">
       <h2>Projects</h2>
-      <div className="projects-container">
+      <div className="projects-container"  data-aos="fade-up">
         {/*Research Project */}
         <div className="project-card featured">
           <span className="featured-badge">Research Project</span>
@@ -117,6 +117,7 @@ function Projects() {
         target="_blank"
         rel="noopener noreferrer"
         className="view-all-btn"
+         data-aos="fade-up"
       >
         View All Projects
       </a>{" "}
