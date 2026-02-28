@@ -39,15 +39,15 @@
 }
 
 .email {
-  color: #EA4335;  
+  color: #ea4335;
 }
 
 .linkedin {
-  color: #0A66C2;   
+  color: #0a66c2;
 }
 
 .github {
-  color: #181717;   
+  color: #181717;
 }
 .contact-links a::after {
   content: "";
@@ -72,4 +72,22 @@
   color: #888;
   text-align: center;
   opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 28px;
+  }
+
+  .contact-text {
+    font-size: 16px;
+  }
+
+  .contact-links a {
+    font-size: 16px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
 }

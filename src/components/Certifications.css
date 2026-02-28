@@ -74,3 +74,38 @@
 .cert-card a:hover::after {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .certification {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .cert-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  }
+
+  .cert-card {
+    padding: 15px;
+  }
+
+  .cert-card h3 {
+    font-size: 18px;
+  }
+
+  .cert-card p {
+    font-size: 14px;
+  }
+
+  .cert-card a {
+    position: static; 
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .cert-card a::after {
+    bottom: 0;
+  }
+}

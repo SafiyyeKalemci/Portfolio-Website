@@ -82,3 +82,64 @@
 .timeline-item.right .date {
   color: #0284c7;
 }
+
+/* Mobil ve tablet */
+@media (max-width: 850px) {
+  .education {
+    padding: 60px 0;
+  }
+
+  .education h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .timeline {
+    position: relative;
+  }
+
+  .timeline-wave {
+    display: none;
+  }
+
+  .timeline-item {
+    position: relative !important;  
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 30px;
+    left: auto !important;
+    right: auto !important;
+    text-align: center; 
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .timeline-item .content {
+    width: 85%;              
+    max-width: 400px;        
+    padding: 20px;
+    border-radius: 12px;
+    background: #f8f6ff;     
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  }
+
+  .timeline-item::before {
+    display: none;
+  }
+  .timeline-item h3 {
+    font-size: 18px;
+  }
+
+  .timeline-item p {
+    font-size: 14px;
+  }
+
+  .timeline-item .date {
+    font-size: 12px;
+  }
+}

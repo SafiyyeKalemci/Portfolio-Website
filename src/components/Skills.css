@@ -89,3 +89,46 @@
   border-radius: 8px;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+
+  .skills {
+    padding: 40px 25px; /* sağ-sol boşluk azaltıldı */
+  }
+
+  .skills h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .skills-card {
+    width: 100%; /* mobilde full width */
+    padding: 15px 20px;
+  }
+
+  .skills-card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .skill-info {
+    font-size: 14px;
+  }
+
+  .skill-bar {
+    height: 6px;
+  }
+
+  .skill-fill {
+    border-radius: 6px;
+  }
+
+  .list-item, .language-item {
+    font-size: 14px;
+  }
+
+  .language-badge {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}

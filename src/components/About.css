@@ -21,3 +21,23 @@
   line-height: 1.7;
   color: #444;
 }
+
+@media (max-width: 768px) {
+
+  .about {
+    padding: 60px 0;
+  }
+
+  .about-container {
+    padding: 0 20px;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+}
