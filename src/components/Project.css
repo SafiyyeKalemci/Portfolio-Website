@@ -44,8 +44,8 @@
 /* Featured */
 .featured {
   border: 2px solid #7f5af0;
-  grid-column: 1 / -1; 
-  max-width: 700px; 
+  grid-column: 1 / -1;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -144,9 +144,9 @@
   transform: translateY(-3px);
   box-shadow: 0 15px 30px rgba(127, 90, 240, 0.3);
 }
+
 /* Responsive */
 @media (max-width: 768px) {
-  
   .projects-container {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -154,10 +154,10 @@
 
   .featured {
     grid-column: 1;
-    max-width: 100%; 
+    max-width: 100%;
     width: 100%;
-    margin: 0 auto; 
-     box-sizing: border-box;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
   .project-card h3 {
     font-size: 20px;
@@ -182,5 +182,4 @@
     font-size: 14px;
     padding: 10px 20px;
   }
-
 }

@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section id="projects" className="projects">
       <h2>Projects</h2>
-      <div className="projects-container"  data-aos="fade-up">
+      <div className="projects-container" data-aos="fade-up">
         {/*Research Project */}
         <div className="project-card featured">
           <span className="featured-badge">Research Project</span>
@@ -30,7 +30,11 @@ function Projects() {
           </div>
 
           <div className="project-links">
-            <a href="https://github.com/SafiyyeKalemci/HyperCrypt" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/SafiyyeKalemci/HyperCrypt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="github-icon" />
               View on Github
             </a>
@@ -62,7 +66,11 @@ function Projects() {
             <span>JavaScript</span>
           </div>
           <div className="project-links">
-            <a href="https://github.com/SafiyyeKalemci/HospitalManagementSystem" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/SafiyyeKalemci/HospitalManagementSystem"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="github-icon" />
               View on Github
             </a>
@@ -83,7 +91,11 @@ function Projects() {
             <span>CSS</span>
           </div>
           <div className="project-links">
-            <a href="https://github.com/SafiyyeKalemci/MovieReview" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/SafiyyeKalemci/MovieReview"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="github-icon" />
               View on Github
             </a>
@@ -105,7 +117,11 @@ function Projects() {
           </div>
 
           <div className="project-links">
-            <a href="https://github.com/SafiyyeKalemci/Snake-Game" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/SafiyyeKalemci/Snake-Game"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="github-icon" />
               View on Github
             </a>
@@ -117,7 +133,7 @@ function Projects() {
         target="_blank"
         rel="noopener noreferrer"
         className="view-all-btn"
-         data-aos="fade-up"
+        data-aos="fade-up"
       >
         View All Projects
       </a>{" "}

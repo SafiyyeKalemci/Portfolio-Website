@@ -93,7 +93,7 @@
 @media (max-width: 768px) {
 
   .skills {
-    padding: 40px 25px; /* sağ-sol boşluk azaltıldı */
+    padding: 40px 25px; 
   }
 
   .skills h2 {
@@ -102,7 +102,7 @@
   }
 
   .skills-card {
-    width: 100%; /* mobilde full width */
+    width: 100%; 
     padding: 15px 20px;
   }
 
