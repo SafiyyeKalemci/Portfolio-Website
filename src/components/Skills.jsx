@@ -45,13 +45,15 @@ function Skills() {
       <h2>Skills</h2>
 
       {/* Backend */}
-      <div className="skills-container"  data-aos="fade-up">
+      <div className="skills-container" data-aos="fade-up">
         <div className="skills-card backend">
           <h3>⚙️Backend</h3>
           <SkillBar name="Java" level={85} color="#7f5af0" />
           <SkillBar name="Spring Boot" level={75} color="#7f5af0" />
           <SkillBar name="PHP" level={70} color="#7f5af0" />
           <SkillBar name="REST API" level={75} color="#7f5af0" />
+          <SkillBar name="C#" level={60} color="#7f5af0" />
+          <SkillBar name="ASP.NET Core MVC" level={60} color="#7f5af0" />
         </div>
 
         {/* Frontend */}
@@ -60,7 +62,6 @@ function Skills() {
           <SkillBar name="JavaScript" level={70} color="#3b82f6" />
           <SkillBar name="HTML/CSS" level={85} color="#3b82f6" />
           <SkillBar name="React" level={60} color="#3b82f6" />
-          
         </div>
 
         {/* Database Technologies */}
@@ -68,7 +69,6 @@ function Skills() {
           <h3>🗃️Database Technologies</h3>
           <SkillBar name="MySQL" level={80} color="#10b981" />
           <SkillBar name="MSSQL" level={60} color="#10b981" />
-
         </div>
 
         {/* Tools & Platforms */}
@@ -78,6 +78,7 @@ function Skills() {
           <ListItem name="VSCode" />
           <ListItem name="Maven" />
           <ListItem name="Eclipse" />
+          <ListItem name="Power Automate" />
         </div>
 
         {/* Professional Skills */}

@@ -5,6 +5,7 @@ import JAVA_BTK from "../assets/JAVA_BTK.pdf";
 import IBM from "../assets/IBM.pdf";
 import QNB from "../assets/QNB_101.pdf";
 import FAB from "../assets/FabSparkFellowship.pdf";
+import FUCHS from "../assets/Fuchs_Lubricants_Türkiye.pdf";
 
 function Certifications() {
   return (
@@ -47,6 +48,14 @@ function Certifications() {
           <h3>FAB Spark Fellowship Feb'26</h3>
           <p>Fab Technologies Inc.</p>
           <a href={FAB} target="_blank" rel="noopener noreferrer">
+            📄 View Certificate
+          </a>
+        </div>
+
+        <div className="cert-card">
+          <h3>Move-In-Tern Internship Program</h3>
+          <p>FUCHS Lubricants Türkiye</p>
+          <a href={FUCHS} target="_blank" rel="noopener noreferrer">
             📄 View Certificate
           </a>
         </div>

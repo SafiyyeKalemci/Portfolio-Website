@@ -49,6 +49,52 @@ function Projects() {
           </div>
         </div>
 
+        {/* User Management Panel */}
+        <div className="project-card">
+          <h3>User Management Panel</h3>
+          <p>
+            A full-stack web application for user management. Features
+            role-based authorization, CRUD operations, Excel/CSV export, Swagger
+            APIs, DTO architecture, SweetAlert2 notifications, and analytics
+            visualization with Chart.js.
+          </p>
+          <div className="tech-stack">
+            <span>C#</span>
+            <span>ASP.NET Core MVC</span>
+            <span>SQL Server</span>
+            <span>Entity Framework Core</span>
+            <span>Swagger</span>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/SafiyyeKalemci/User_Management_Panel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="github-icon" />
+              View on Github
+            </a>
+          </div>
+        </div>
+
+        {/* Havacılıkta Yapay Zeka - TEKNOFEST */}
+        <div className="project-card">
+          <h3>Havacılıkta Yapay Zeka Yarışması — Vision</h3>
+          <p>
+            Participated as team captain in TEKNOFEST 2026. Worked on the object
+            matching task, developing a system to detect reference objects —
+            shared dynamically during the competition — in aerial vehicle
+            footage using DINOv2-based feature extraction and LightGlue/ALIKED
+            matching.
+          </p>
+          <div className="tech-stack">
+            <span>Python</span>
+            <span>DINOv2</span>
+            <span>Computer Vision</span>
+          </div>
+          <span className="project-badge">Simulation Round</span>
+        </div>
+
         {/* Hospital Management */}
         <div className="project-card">
           <h3>Hospital Management System</h3>
